@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     margin: 0;
-    padding: 0 60px 0 60px;
+    padding: 0 50px 0 50px;
   }
   .feedback__btn {
     cursor: pointer;
@@ -11,7 +11,7 @@
     border-radius: 5px;
     text-align: left;
     background-color: #f3f6f9;
-    color: #82909e;
+    color: #3a5c7f;
     transition: all 800ms;
   }
   .feedback__btn:hover {

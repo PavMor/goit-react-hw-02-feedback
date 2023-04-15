@@ -5,7 +5,7 @@
     margin-top: 60px;
     width: 350px;
     color: #1f3349;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: white;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
       rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
@@ -14,5 +14,5 @@
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 25px 0 25px 0;
+    padding: 20px 0 20px 0;
   }
