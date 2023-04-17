@@ -1,14 +1,16 @@
 import PropTypes from 'prop-types';
-import s from '../Section/Section.module.css';
+import { SectionContainer, Title } from './Section.styled';
 
-export const Section = ({ title, children }) => (
-  <section className={s.feedback}>
-    <h2 className={s.feedback__title}> {title}</h2>
-    {children}
-  </section>
-);
+export const Section = ({ title, children }) => {
+  return (
+    <SectionContainer>
+      {title && <Title>{title}</Title>}
+      {children}
+    </SectionContainer>
+  );
+}
 
 Section.propTypes = {
-  title: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
+  title: PropTypes.string,
+  children: PropTypes.element.isRequired,
 };
