@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
-
-import { Statistics } from './Statistics/Statistics.jsx';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions.jsx';
 import { Notification } from './Notification/Notification.jsx'; 
 import { Section } from './Section/Section.jsx'; 
+import { Statistics } from './Statistics/Statistics.jsx';
 
 export class App extends Component {
   constructor() {
